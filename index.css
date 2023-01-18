@@ -88,14 +88,6 @@ html, body{
     height: 75%;
     opacity: 0.2;
 }
-.main-name{
-    color: white;
-    position: absolute;
-    z-index: 2;
-    left: 20px;
-    top: 260px;
-   
-}
 #bio .cv{
     position: absolute;
     left: 220px;
@@ -167,29 +159,23 @@ html, body{
     line-height: 16px;
     opacity: 0.6;
 }
-
 #bio .story pre span{
     font-size: 16px;
     text-decoration:underline;
     color: red;
 }
 
-
-
-
-
-
-/* #main .popup{
+#main .popup {
     background: red;
     color: white;
     position: relative;
-    left: 200px;
-    top: 350px;
+    left: 240px;
+    top: 170px;
+    padding: 0 20px;
     border: 1px solid black;
     border-radius: 5px;
 }
 #main .popup {
-    position: relative;
     display: inline-block;
     cursor: pointer;
     -webkit-user-select: none;
@@ -197,10 +183,9 @@ html, body{
     -ms-user-select: none;
     user-select: none;
 }
-
 #main .popup .popuptext {
     visibility: hidden;
-    width: 160px;
+    width: 700px;
     background-color: #555;
     color: #fff;
     text-align: center;
@@ -210,9 +195,8 @@ html, body{
     z-index: 1;
     bottom: 125%;
     left: 50%;
-    margin-left: -80px;
+    margin-left: -350px;
 }
-
 #main .popup .popuptext::after {
     content: "";
     position: absolute;
@@ -223,15 +207,11 @@ html, body{
     border-style: solid;
     border-color: #555 transparent transparent transparent;
 }
-  
-
 #main .popup .show {
     visibility: visible;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
 }
-  
-
 @-webkit-keyframes fadeIn {
     from {opacity: 0;} 
     to {opacity: 1;}
@@ -240,4 +220,4 @@ html, body{
 @keyframes fadeIn {
     from {opacity: 0;}
     to {opacity:1 ;}
-} */
+}
